@@ -1,0 +1,363 @@
+/* fullPage主样式*/
+*{
+      margin: 0;
+      padding: 0;
+      	  
+}
+a{
+      text-decoration: none;
+}
+ul{
+       list-style: none;
+}
+.section{
+	         position: relative;
+			 background: #fff;
+			 overflow: hidden;
+}
+#fix-me{
+            display: block;
+			width: 200px;
+			height: 150px;
+			background: url(../images/telephone.gif);
+			background-size: cover;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			color: #cd0000;
+			text-align: center;
+			font-family:"微软雅黑";
+}
+#fix-me p{
+	          margin-top: 60px;
+}
+#close{
+	               width: 20px;
+				   height: 20px;
+				   background: #eeee00;
+				   border-radius: 50%;
+				   text-align: center;
+				   color: #000;
+				   position: absolute;
+				   right: 0;
+				   top: 0;
+				   cursor: pointer;
+}
+#close:hover{
+	                     background: #fff;
+}
+/*第一页样式*/
+.section1{
+	          text-align: center;
+			  background: url(../images/section1.gif);
+			  background-size: cover;
+}
+.header{
+	        width: 100%;
+			height: 47px;
+			line-height: 47px;
+}
+.logo{
+	              margin-left: 60px;
+				  float: left;
+				  text-indent: 50px;
+				  font-family: "黑体";
+				  font-size: 21px;
+				  background: url(../images/logo.gif) left center no-repeat;
+}
+.nav{
+	     margin-right: 100px;
+}
+.nav li{
+	        float: right;
+			margin-right: 10px;
+}
+.nav li a{
+	          display: inline-block;
+			  text-decoration: none;
+			  width: 100px;
+			  color: #fff;
+			  background: #e74f4d;
+			  text-align: center;
+			  font-family: "微软雅黑";
+}
+.nav li a:hover{
+	                color:#FFF; 
+			        background-color:#666;
+}
+.nav li ul{
+	           width: 100px;
+			   display: none;
+			   background-color: #fff;
+			   position: absolute;
+}
+.nav li ul li{
+	              float: none;
+				  margin-top: 2px;
+				  border-bottom: 1px solid #cdc9c9;
+}
+.nav li ul a{
+	             color: #000;
+}
+.intro{
+	       margin-top: 150px;
+		   color: #fff;
+		   font-family: "微软雅黑";
+}
+.intro h2{
+	          font-size: 60px;
+			  text-shadow: 5px 5px 5px #888;
+}
+.intro .telephone{
+	                  margin: 800px auto 0;
+}
+.intro p{
+	        font-size: 21px;
+}
+/*第二页样式*/
+.section2{
+	          font-family: "微软雅黑";
+			  text-align: center;
+			  width: 100%;
+			  background: url(../images/section2.jpg);
+			  background-size: cover;
+}
+.section2 h2{
+				 margin: 40px auto 0 1500px;
+				 width: 27%;
+				 display: block;
+				 font-weight: normal;
+				 color: #fff;
+				 font-size: 50px;
+				 border-bottom: 4px solid #ff3030;
+				 padding-bottom: 4px;
+				 text-shadow: 4px 4px 4px #888;
+}
+.section2 p{
+	           margin: 20px auto 80px -1900px;
+               font-size: 23px;	
+               color: #fff;			   
+}
+.section2 ul{
+	             margin-left: 20%;
+                 font-size: 23px;
+                 overflow: hidden;				 
+}
+.section2 ul li{
+	                 width: 100px;
+					 height: 50px;
+					 display: block;
+					 background: #fff;
+					 color: #e25c60;
+					 border: 1px solid #e25c60;
+					 line-height: 50px;
+					 margin-right: 80px;
+					 float: left;
+					 cursor: pointer;
+}
+.section2 ul li:hover{
+	                      color: #fff;
+                          background: #e35c60;						  
+}
+.section2 .expand{
+	                  position: relative;
+					  overflow: hidden;
+					  margin-top: 3px;
+					  margin-left: 10%;
+					  width: 80%;
+					  height: 0;
+					  background: #333d4d;
+}
+.section2 .expdiv{
+	                  height: 130px;
+					  width: 500%;
+}
+.section2 .expdiv-list{
+                           width: 20%;
+				           text-align: center;
+				           float: left;
+				           line-height: 200px;
+						   color: #fff;
+						   font-size: 23px;
+}
+.section2 .expand .close-btn{
+	                                 width: 120px;
+									 height: 20px;
+									 background: url(../images/broswer_home.png) no-repeat -13px -117px;
+									 position: absolute;
+									 bottom: -2px;
+									 left: 45%;
+									 cursor: pointer;
+}
+/*第三页样式 */
+.section3{
+	          font-family: "微软雅黑";
+			  text-align: center;
+			  width: 100%; 
+              background: url(../images/section3.jpg);
+              background-size: cover; 			  
+}
+.section3 h2{
+	             display: block;
+				 width: 22%;
+				 margin: 20px auto;
+				 color: #fff;
+				 font-size: 45px;
+				 border-bottom: 4px solid #ff3030;
+				 padding-bottom: 4px;
+				 text-shadow: 3px 3px 3px #888;
+} 
+.section3 p{
+	            color: #fff;
+				font-size: 18px;
+				margin: 800px auto 0;
+}
+.section3 ul{
+                 margin-top: 40px;
+                 font-size: 35px;				 
+}
+.section3 li{
+	             float: left;
+				 margin-left: 100px;
+}
+.section3 li span{
+				     display: block;
+				     height: 100px;
+				     width: 200px;
+				     line-height: 100px;
+				     border: 2px solid #000;
+				     border-radius:25px;
+                     -moz-border-radius:25px;
+				     -moz-box-shadow: 5px 5px 5px #888; 
+                     box-shadow: 5px 5px 5px #888;
+				     cursor: pointer;
+}
+.section3 span:hover{
+	                   border-color: #e74f4d;
+					   color: #e74f4d;
+}
+.section3 .flag{
+	                margin: 30px auto 0;
+					height: 52px;
+					width: 55px;
+					background: url(../images/broswer_home.png) no-repeat  -3px -3px; 
+}
+.section3 .flag_scale {
+	                       -webkit-transform: rotate(180deg);
+	                       transform: rotate(180deg);
+}
+.section3 .skill_hide{
+	                       width: 200px;
+						   height: 200px;
+						   background: #b0b0b0;
+						   filter: alpha(opacity:60);
+						   opacity: 0.6;
+						   border: 2px solid #fff;
+						   border-radius:15px;
+						   margin-top: 25px;
+						   display: none;
+						   font-size: 14px;
+						   text-shadow: 1px 1px 1px #cdc9c9;
+						   line-height: 22px;
+}
+/*第四页样式*/
+.section4 {
+              background: url(../images/section4.jpg);
+              background-size: cover;	           
+			  font-family: "微软雅黑";
+}
+#container {
+	            margin: 10px auto 0;
+				width: 1200px;
+				height: 400px;
+				overflow: hidden;
+				position: relative;
+}
+#list{
+	      width: 7200px;
+          height: 400px;
+          position: absolute;
+          z-index: 1;          
+}
+#list img{
+	          width: 1200px;
+			  height: 400px;
+			  float: left;
+}
+#buttons{
+	         position: absolute;
+			 height: 10px;
+			 width: 100px;
+			 z-index: 2;
+			 bottom: 20px;
+			 left: 550px;
+}
+#buttons span{
+	              cursor: pointer;
+				  float: left;
+				  border: 1px solid #fff;
+				  width: 10px;
+				  height: 10px;
+				  border-radius: 50%;
+				  margin-right: 10px;
+}
+#buttons .on{
+	             background: #fff;
+}
+.arrow{
+	       cursor: pointer;
+		   display: none;
+		   line-height: 39px;
+		   text-align: center;
+		   font-size: 36px;
+		   font-weight: bold;
+		   width: 40px;
+		   height: 40px;
+		   position: absolute;
+		   z-index: 2;
+		   top: 180px;
+		   background-color: RGBA(0,0,0,0.3);
+		   color: #fff;
+}
+.arrow:hover{
+	             background-color: RGBA(0,0,0,0.7);
+}
+#container:hover .arrow{
+	                        display: block;   
+}
+#prev{
+	      left: 20px;
+}
+#next{
+	      right: 20px;
+}
+.section4 h2{
+                 margin: 35px auto 0 -1500px;	            
+				 color: #575757;
+				 font-size: 40px;
+                 text-shadow: 2px 2px 2px #575757;				 
+}
+.section4 p{
+	            margin: 10px auto 0 -1500px;
+				font-size: 20px;
+}
+/* 第五页样式*/
+.section5{
+	          background: url(../images/section5.jpg);
+			  background-size: cover;
+			  font-family: "微软雅黑";
+			  color: #fff;
+}
+.section5 .thank{
+	                 float: right;
+					 margin-right: 200px;
+					 margin-top: 30px; 
+					 text-align: center;
+}
+.thank h2{
+	          font-size: 45px;
+}
+.thank p{
+	         margin-top: 20px;
+			 font-size: 25px;
+}
